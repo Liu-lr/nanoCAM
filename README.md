@@ -4,7 +4,7 @@ We developed nanoCAM-seq(Nanopore Chromatin interaction, accessibility, DNA meth
 In this work, We use the human hg38 genome (GRCh38_no_alt_analysis_set_GCA_000001405.15) as reference, and public datasets of GM12878 and K562 cell lines were obtained from 4DN porter, ENDCODE or GEO database.
 # software
 ```
-*python(3.8)
+* python(3.8)
 *R(4.3.2)
 *Guppy(4.5.3)
 *falign(0.0.1)
