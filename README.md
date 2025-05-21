@@ -45,7 +45,7 @@ To compare with the Hi-C data and the subsequent visualization, the multiway con
 cooler cload pairs -c1 2 -p1 3 -c2 4 -p2 5 $CHROMSIZES_FILE:$BINSIZE $PAIRS_FILE_Sort $COOL_FILE
 cooler zoomify -n 40 -r 1000,2000,5000,10000,25000,50000,100000,250000,500000,1000000,2500000,5000000,10000000 --balance -o ${sname}.mcool $COOL_FILE 2>${sname}.log
 ```
-# juice_matrix to hic
+juice_matrix to hic
 ```
 java -Xmx300g -Xms100g -jar ${juicertools} pre -j 40 --threads 40 ${PAIRS_FILE_Sort} ${sname}.hic ${CHROMSIZES_FILE}  &>${log}
 ```
