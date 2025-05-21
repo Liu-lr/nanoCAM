@@ -4,16 +4,16 @@ We developed nanoCAM-seq(Nanopore Chromatin interaction, accessibility, DNA meth
 In this work, We use the human hg38 genome (GRCh38_no_alt_analysis_set_GCA_000001405.15) as reference, and public datasets of GM12878 and K562 cell lines were obtained from 4DN porter, ENDCODE or GEO database.
 # software
 ```
-python(3.8)
-R(4.3.2)
-Guppy(4.5.3)
-falign()
-nanopolish(0.11.1)
-samtools(1.21)
-Juicebox(2.13.07)
-cooltools(0.4.1)
-FAN-C(0.9.27)
-deeptools(3.5.4)
+*python(3.8)
+*R(4.3.2)
+*Guppy(4.5.3)
+*falign(0.0.1)
+*nanopolish(0.11.1)
+*samtools(1.21)
+*Juicebox(2.13.07)
+*cooltools(0.4.1)
+*FAN-C(0.9.27)
+*deeptools(3.5.4)
 ```
 # Basecalling and Methylation calling
 In this step, Guppy and nanopolish software were used. And due to the large amount of Nanopore data, It is recommended to generate a corresponding FASTQ file for each multi-FAST5 file to improve processing efficiency. The input is fast5 file and the output is fastq and tsv files.
